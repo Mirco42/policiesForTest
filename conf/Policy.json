@@ -1,0 +1,44 @@
+{
+    "policy": [
+        {
+            "guid": "abee2f28-bc33-4a3f-84fb-e9a5cad53261",
+            "policyDetail": {
+                "folderId": "845f1a7ce599b6352e9a63cea6044372",
+                "guid": "abee2f28-bc33-4a3f-84fb-e9a5cad53261",
+                "id": "845f1a7ce599b6352e9a63cea60443b5",
+                "name": "ccc",
+                "policyType": "Include",
+                "properties": {
+                    "property": [
+                        {
+                            "key": "hasRouting",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "revision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "policiesForTest\/ccc.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "845f1a7ce599b6352e9a63cea60443b5"
+        }
+    ]
+}
